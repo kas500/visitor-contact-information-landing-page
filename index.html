@@ -9,6 +9,7 @@
 </head>
 
 <body>
+    <!-- header start -->
     <header>
         <img src="./assets/images/contact_info.png" id="contact_info" alt="Contact info icon">
         <h1>Visitor's contact information</h1>
@@ -21,12 +22,13 @@
                     <a href="https://github.com/kas500">GitHub account</a>
                 </li>
                 <li>
-                    <a href="#contact">Contact</a>
+                    <a href="#contact_form">Contact</a>
                 </li>
             </ul>
         </nav>
     </header>
-
+    <!-- header end -->
+    <!-- main start -->
     <main>
         <figure>
             <img src="./assets/images/learn_code.png" id="learning_code_img" alt="Learn code picture">
@@ -34,15 +36,28 @@
         </figure>
 
         <div id="hint">
-            <h4>SCROLL DOWN &#8595</h4>
-
+            <h4><a href="#contact_form">SCROLL DOWN &#8595</a></h4>
         </div>
-    </main>
 
+        <div class="container"><a id="contact_form">
+            <form>
+                <h4>Contact info</h4>
+                <label for="fname">First name:</label>
+                <input type="text" id="fname" name="fname" placeholder="Your first name.."><br><br>
+                <label for="lname">Last name:</label>
+                <input type="text" id="lname" name="lname" placeholder="Your last name.."><br><br>
+                <input type="submit" value="Submit">
+          </form>            
+        </div>
+
+
+    </main>
+    <!-- main end -->
+    <!-- footer start -->
     <footer>
         <h6 id="copyright">Copyright © 2022 Anton K.</h6>
     </footer>
-
+    <!-- footer end -->
     
 </body>
 
