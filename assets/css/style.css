@@ -1,3 +1,8 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
 header {
     background-color: rgb(95, 28, 95);
     
@@ -37,5 +42,6 @@ a{
 
 #copyright {
     text-align: center;
+    font: italic small-caps bold 12px/30px Georgia, serif;
 }
 
