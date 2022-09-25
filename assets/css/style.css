@@ -1,0 +1,41 @@
+header {
+    background-color: rgb(95, 28, 95);
+    
+}
+header h1 {
+    display: inline-block;
+    color: rgb(245, 245, 88);
+}
+
+header ul li {
+    display: inline-block;
+    margin-left: 15px;
+    
+}
+
+nav {
+    padding-top: 72px;
+    margin-right: 20px;
+    float: right;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+a{
+    color: rgb(245, 245, 88);
+}
+#contact_info {
+    vertical-align:middle;
+    height: 200px;
+    width: auto;
+    margin: 0;
+    padding: 0;
+}
+
+#copyright {
+    text-align: center;
+}
+
