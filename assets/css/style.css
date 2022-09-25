@@ -5,7 +5,7 @@
 }
 
 figure {
-    margin-top: 10%;
+    margin-top: 20%;
     display: block;
     text-align: center;
 }
@@ -26,6 +26,9 @@ figure figcaption {
 
 header {
     background-color: #cbcbcb;
+    position: fixed;
+    width: 100%;
+    top: 0;
     
     
 }
@@ -75,5 +78,10 @@ a{
     text-align: center;
     font: italic small-caps bold 12px/30px Georgia, serif;
     margin: 5px;
+}
+
+#hint {
+    margin-top: 5%;
+    text-align: center;
 }
 
